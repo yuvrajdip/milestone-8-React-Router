@@ -15,8 +15,8 @@ const NavBar = () => {
   ]
 
   return (
-    <nav className=" bg-yellow-200 text-black">
-      <div onClick={() => setOpen(!open)} className="ml-4 text-2xl h-10 md:hidden flex items-center">
+    <nav className="md:flex md:items-center md:justify-center bg-yellow-200 h-20 text-black">
+      <div onClick={() => setOpen(!open)} className="m-4 text-2xl md:hidden">
         {
           open ? <RxCross1></RxCross1> : <HiOutlineMenuAlt1></HiOutlineMenuAlt1>
         }

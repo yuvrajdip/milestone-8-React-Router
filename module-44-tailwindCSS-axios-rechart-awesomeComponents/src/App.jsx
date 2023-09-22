@@ -1,4 +1,5 @@
 import NavBar from "./NavBar/NavBar"
+import PriceOptions from "./PriceOptions/PriceOptions"
 
 function App() {
 
@@ -6,7 +7,8 @@ function App() {
     <>
       <NavBar></NavBar>
       {/* <DaisyNav></DaisyNav> */}
-      <h1 className='text-7xl bg-rose-400'>Vite + React</h1>
+
+      <PriceOptions></PriceOptions>
 
 
       {/* <div className="drawer">
@@ -23,7 +25,7 @@ function App() {
             <li><a>Sidebar Item 2</a></li>
           </ul>
         </div>
-      </div>
+  </div>*/}
 
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
@@ -54,7 +56,7 @@ function App() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </>
   )
 }
