@@ -1,4 +1,5 @@
 import NavBar from "./NavBar/NavBar"
+import Phones from "./Phones/Phones"
 import PriceOptions from "./PriceOptions/PriceOptions"
 import ReChart from "./ReChart/ReChart"
 
@@ -11,7 +12,8 @@ function App() {
 
       <PriceOptions></PriceOptions>
 
-      <ReChart></ReChart>
+      <Phones></Phones>
+      {/* <ReChart></ReChart> */}
 
 
       {/* <div className="drawer">
