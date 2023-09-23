@@ -2,6 +2,7 @@ import NavBar from "./NavBar/NavBar"
 import Phones from "./Phones/Phones"
 import PriceOptions from "./PriceOptions/PriceOptions"
 import ReChart from "./ReChart/ReChart"
+import GridSpinner from "./ReactAwesomeComponents/GridSpinner"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
 
       <Phones></Phones>
       {/* <ReChart></ReChart> */}
+      <GridSpinner></GridSpinner>
 
 
       {/* <div className="drawer">
