@@ -1,0 +1,8 @@
+.leftsidebar{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: black;
+  cursor:pointer;
+  width: 20%;
+}

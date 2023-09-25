@@ -1,0 +1,15 @@
+.navbar{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.navbar a{
+  text-decoration: none;
+  /* color: black; */
+  font-size: 30px
+}
